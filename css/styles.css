@@ -1,0 +1,114 @@
+@font-face {
+    font-family: snesitalic;
+    src: url(SNES.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: universeblack;
+    src: url(UniversLTStd-Bold.otf) format("opentype");
+}
+
+@font-face {
+    font-family: universeregular;
+    src: url(UniversLTStd.otf) format("opentype");
+}
+
+@font-face {
+    font-family: universeitalicbold;
+    src: url(univers_bold_italic3.ttf) format("truetype");
+}
+
+body{
+  background-color: #191919;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+p{
+  font-family: universeregular;
+  color: #00B792;
+}
+
+hr{
+  border-style: none;
+  border-color: #FCBA65;
+  border-top-style: dotted;
+  border-width: 10px;
+  width: 100%;
+}
+h3{
+  color: #fabe4d;
+  font-family: universeblack;
+  padding: 10px;
+  font-size: 20px;
+}
+h2,h4{
+  color: #0c005a;
+  font-family: snesitalic;
+  font-weight:lighter;
+}
+h1{
+  color: #e52629;
+  font-family: snesitalic;
+  font-size: 80px;
+}
+
+a{
+  border-bottom: 3px solid #8C90C2;
+  color: #00B792;
+  font-size: 15px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+a:hover{
+  font-size: 15px;
+  color: white;
+  background-color: #bc2525;
+}
+
+li{
+  decoration: none;
+  font-family: universeregular;
+  letter-spacing: 1px;
+}
+em{
+  color: #ffffff;
+}
+strong{
+  font-family: universeitalicbold;
+  color: #ffffff;
+}
+ul{
+  list-style: inside;
+  color: #fabe4d;
+}
+tr{
+  font-family: universeregular;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.year{
+  align-content: stretch;
+  color: #FFFFFF;
+  padding-right: 20px;
+}
+ol{
+  color: #ffffff;
+}
+.tabla_contacto{
+  width: 100%;
+}
+.enlace{
+  color: #e52629;
+  font-family: snesitalic;
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.enlace:hover{
+  font-size: 15px;
+  color: white;
+  background-color: #bc2525;
+  font-size: 40px;
+  padding: 8px;
+}
